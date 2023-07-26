@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf_8">
+        <title> Picasso Table / Signup Form</title>
+        <link rel="stylesheet" href="picasso.css">
+    </head>
+    <body>
+        <!-- Recreation of atable-->
+        <div id="table">
+        <table>
+             
+                <tr>
+                    <td rowspan="2">a</td>
+                    <td rowspan="2">b</td>
+                    <td colspan="2" rowspan="2">c</td>
+                </tr>
+                <tr></tr>
+                <tr>
+                    <td colspan="2" rowspan="2">a2</td>
+                    <td colspan="2" >b2</td>   
+                </tr>
+                <td>c3</td>
+                <tr></tr>  
+        </table>
+            </div>
+
+<!-- A sign up form-->
+           
+           <div id="forme"> 
+           <form target="_blank" method="get" autocomplete="on"></form>
+           <fieldset>
+           <legend>personal details</legend>
+              
+            <!-- options-->
+             <label for="moi et moi">situation</label> <br>
+               <select id="cars" name="cars">
+                 <option value="ana">ana</option>
+                 <option value="howa">howa</option>
+                 <option value="fiat">hiya</option>
+                 <option value="homa">homa</option>
+                 </select> <br><br>
+              
+                  <!--text field for names and -->
+                  <label >First name:</label>
+                  <input type="text"><br><br>
+                  <label>Last name:</label>
+                  <input type="text" ><br><br>
+                        
+                      
+                  <label > gendre : </label> 
+                  <input type="radio" id="gender" name="gender" value="male"/> Male    
+                  <input type="radio" id="gender" name="gender" value="female"/> Female <br/> <br>   
+                    
+                  <label> email</label>
+                  <input type="email" name="email" placeholder="your email here"> <br> <br>
+                    
+                  <label > date</label>
+                  <input type="date">
+                  <br><br>
+
+                  <label> Adress </label><br>
+                  <textarea name="message" rows="8" cols="40"> 
+                  </textarea>
+
+                  <br>
+                  <input type="submit" value="Submit">
+                  </fieldset>
+                  </form>
+                  <caption> sign up form </caption>
+                  </div>
+    </body>
+</html>

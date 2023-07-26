@@ -1,0 +1,29 @@
+
+#colum1 {
+    margin-right: 150px;
+}
+#p1{ 
+    font-size: 30px;
+    margin-bottom: -10px;
+}
+#span{
+    font-size: 30px;
+ }
+
+.p2{ 
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 0px;
+    margin-bottom: -20px;
+}
+
+
+video{
+    border-radius: 10px;
+}
+#first {
+    margin-top: 30px;
+}
+.second {
+    margin-top: -80px;
+}
